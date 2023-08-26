@@ -1,1 +1,1 @@
-# teacher
+# manjaro-teaching-setup-script
