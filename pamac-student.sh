@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo cp /etc/sudoers.d/10-installer{,.bak}
-sudo cat << EOF > /etc/sudoers.d/10-installer
+cat << EOF | sudo tee /etc/sudoers.d/10-installer
 %wheel ALL=(ALL) NOPASSWD: ALL
 EOF
 
